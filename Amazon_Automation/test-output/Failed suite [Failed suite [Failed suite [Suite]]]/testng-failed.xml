@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Opera(failed)(failed)(failed)(failed)">
+    <parameter name="AmazonTest" value="Opera"/>
+    <classes>
+      <class name="TestNG.VerifyAddtoCartandBuyNowNew">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="ClickonBuyNow"/>
+          <include name="closethebrowser"/>
+          <include name="gobacktoMainPage"/>
+          <include name="clearObjects"/>
+          <include name="Signin"/>
+          <include name="clickonAddtoCart"/>
+          <include name="CreatePOMClassObjects"/>
+        </methods>
+      </class> <!-- TestNG.VerifyAddtoCartandBuyNowNew -->
+    </classes>
+  </test> <!-- Opera(failed)(failed)(failed)(failed) -->
+  <test thread-count="5" name="Firefox(failed)(failed)(failed)(failed)">
+    <parameter name="AmazonTest" value="Firefox"/>
+    <classes>
+      <class name="TestNG.VerifyAddtoCartandBuyNowNew">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="ClickonBuyNow"/>
+          <include name="closethebrowser"/>
+          <include name="gobacktoMainPage"/>
+          <include name="clearObjects"/>
+          <include name="Signin"/>
+          <include name="clickonAddtoCart"/>
+          <include name="CreatePOMClassObjects"/>
+        </methods>
+      </class> <!-- TestNG.VerifyAddtoCartandBuyNowNew -->
+    </classes>
+  </test> <!-- Firefox(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]] -->
